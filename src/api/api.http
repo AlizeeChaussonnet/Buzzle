@@ -1,0 +1,27 @@
+# POST http://localhost:3001/api/users
+# Content-Type: application/json
+
+# {
+#     "email": "toto@tutu.fr",
+#     "password": "testtesttest"
+# }
+
+
+# ###
+# GET http://localhost:3001/api/users
+
+
+###
+GET http://localhost:3001/api/leaderboard/
+
+###
+POST http://localhost:3001/api/leaderboard
+Content-Type: application/json
+
+{
+    "username": "alizee",
+    "score": "900"
+}
+
+###
+GET http://localhost:3001/api/leaderboard/order
